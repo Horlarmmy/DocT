@@ -1,10 +1,11 @@
 body 
 {
-height: 125vh;
 margin-top: 80px;
+margin-left: 50px;
 padding: 30px;
 background-size: cover;
 font-family: sans-serif;
+background-color: aquamarine;
 }
 header {
 background-color: blue;
@@ -25,4 +26,9 @@ margin: 20px;
 header li a {
 color: white;
 text-decoration: none;
+}
+
+form {
+    color: blue;
+    place-items: center;
 }
