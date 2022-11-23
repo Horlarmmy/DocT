@@ -4,7 +4,7 @@
 <Title>   
 DocT
 </Title>
-<link rel="stylesheet" href="style.css"> 
+<link rel="stylesheet" href="style.css">
 </Head>
 <Body> 
 <header>
@@ -17,7 +17,7 @@ DocT
 <a href="upload.html">Upload </a>
 </li>
 <li>
-<a href="documents.html">Documents</a>
+    <a href="documents.html" id="docs">Documents</a>
 </li>
 <li>
 <a href="#"> About Us </a>
@@ -39,14 +39,19 @@ DocT
 </nav>
 </header>
 <div class="body">
-    <div class="docs">
+    <div class="docs-b">
         <h4>Your Uploaded documents appear here ...</h4>
+        <button id="refresh">Refresh</button>
+        <div class="docs-s">
+            
+        </div>
     </div>
 
 </div>
 <footer>
     DocT &copy;2022 &nbsp; Best Decentralised Storage Solution...
 </footer>
+<script src="./doc.js" type="module"></script>
 <script src="main.js"> </script>
 </Body> 
 </Html>

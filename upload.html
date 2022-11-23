@@ -17,7 +17,7 @@ DocT
 <a href="upload.html">Upload </a>
 </li>
 <li>
-<a href="documents.html">Documents</a>
+<a href="documents.html" id="docs">Documents</a>
 </li>
 <li>
 <a href="#"> About Us </a>
@@ -43,26 +43,25 @@ DocT
     <h3>Upload your Files to Metis Chain...</h3>
 </div>
 <div class="form">
-    <form>
-
-        <label> Name </label> 
-        <input type="text" name="name" size="15"/> <br> <br>
-        <label> Description: </label>
+        <p> Name </p> 
+        <input type="text" name="name" size="15" id="file_name"/> <br> <br>
+        <p> Description: </p>
         <input type="text" name="description"/> <br> <br>
         
-        <label> 
+        <p> 
         Choose File :
-        </label>
-        <input type="file" name="file"/>
+        </p>
+        <input type="file" name="file" id="file"/>
         <br>
         <br>
-        <button>Upload</button>
-    </form>
+        <button id="upload_file">Upload</button>
 </div>
 </div>
 <footer>
     DocT &copy;2022 &nbsp; Best Decentralised Storage Solution...
 </footer>
+<script src="./doc.js" type="module">
+</script>
 <script src="main.js"> </script>
 </Body> 
 </Html>
